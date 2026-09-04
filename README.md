@@ -49,21 +49,21 @@ The dataset was obtained using the NLTK Gutenberg corpus.
 ## LSTM Model Architecture
 
 Input Sequence
-      ↓
+      ->
 Embedding Layer
 100-dimensional embeddings
-      ↓
+      ->
 LSTM 150 units
-      ↓
+      ->
 Dropout 0.2
-      ↓
+      ->
 LSTM
 200 units
-      ↓
+      ->
 Dense 4818 neurons
-      ↓
+      ->
 Softmax
-      ↓
+      ->
 Predicted Next Word
 
 
